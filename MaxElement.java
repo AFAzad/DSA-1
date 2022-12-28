@@ -15,7 +15,7 @@ public class MaxElement {
 
         int min = 74;
         for(int result: arr){
-            if(result<min){
+            if(result< min){
                 min= result;
             }
         }
